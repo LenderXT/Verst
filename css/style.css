@@ -24,22 +24,26 @@ body {
 	text-decoration: none;
 }
 .home-menu a {
+	font-family: RalewayRegular;
+	font-size: 14px;
 	outline: 0px dashed lightgray;
-	padding-top: 20px;
+	padding-top: 21px;
 	padding-bottom: 19px;
-	padding-left: 38px;
-	padding-right: 38px;
+	padding-left: 44px;
+	padding-right: 45px;
 	margin: 0 -2px;
 	color: white;
 	text-decoration: none;
 }
 .home-menu a:hover {
+	font-family: RalewayRegular;
+	font-size: 14px;
 	background-color: #2b88d5;
 	color: white;
-	padding-top: 20px;
+	padding-top: 21px;
 	padding-bottom: 19px;
-	padding-left: 38px;
-	padding-right: 38px;
+	padding-left: 44px;
+	padding-right: 45px;
 	margin: 0 -2px;
 	text-decoration: none;
 }
