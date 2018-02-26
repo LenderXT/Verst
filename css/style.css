@@ -1,0 +1,53 @@
+body {
+	max-width: 1920px;
+	margin: 0;
+}
+.container {
+	position: absolute;
+	width: 1920px;
+}
+.home-contact {
+	position: relative;
+	outline: 0px dotted orange;
+	height: 132px;
+}
+.home-menu {
+	background-color: black;
+	position: absolute;
+	outline: 0px dotted lightgray;
+	width: 1920px;
+	height: 56px;
+}
+.home-menu li {
+	display: inline;
+	list-style: none;
+	text-decoration: none;
+}
+.home-menu a {
+	outline: 0px dashed lightgray;
+	padding-top: 20px;
+	padding-bottom: 19px;
+	padding-left: 38px;
+	padding-right: 38px;
+	margin: 0 -2px;
+	color: white;
+	text-decoration: none;
+}
+.home-menu a:hover {
+	background-color: #2b88d5;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 19px;
+	padding-left: 38px;
+	padding-right: 38px;
+	margin: 0 -2px;
+	text-decoration: none;
+}
+.home-menu ul {
+	position: relative;
+	top: 4px;
+	text-align: center;
+}
+
+
+	
