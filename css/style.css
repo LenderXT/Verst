@@ -1,57 +1,114 @@
-body {
-	max-width: 1920px;
-	margin: 0;
-}
 .container {
-	position: absolute;
-	width: 1920px;
-}
-.home-contact {
-	position: relative;
-	outline: 0px dotted orange;
-	height: 132px;
-}
-.home-menu {
-	background-color: black;
-	position: absolute;
-	outline: 0px dotted lightgray;
-	width: 1920px;
-	height: 56px;
-}
-.home-menu li {
-	display: inline;
-	list-style: none;
-	text-decoration: none;
-}
-.home-menu a {
-	font-family: RalewayRegular;
-	font-size: 14px;
-	outline: 0px dashed lightgray;
-	padding-top: 21px;
-	padding-bottom: 19px;
-	padding-left: 44px;
-	padding-right: 45px;
-	margin: 0 -2px;
-	color: white;
-	text-decoration: none;
-}
-.home-menu a:hover {
-	font-family: RalewayRegular;
-	font-size: 14px;
-	background-color: #2b88d5;
-	color: white;
-	padding-top: 21px;
-	padding-bottom: 19px;
-	padding-left: 44px;
-	padding-right: 45px;
-	margin: 0 -2px;
-	text-decoration: none;
-}
-.home-menu ul {
-	position: relative;
-	top: 4px;
-	text-align: center;
+	margin: 0 auto;
 }
 
+/* header */
+.header {
+}
+
+/* header - Контакты - Логотип */
+.logo {
+	float: left;
+	margin: 10px 65px;
+}
+
+/* header - Контакты */
+.home-contact {
+	
+}
+.cont-contact {
+	width: 1230px;
+	height: 131px;
+	margin: auto;
+}
+.contact {
+	float: right;
+}
+.contact li {
+	display: inline-block;
+	font-size: 18px;
+	font-family: PTSansRegular;
+	margin: 0 15px 0 15px;
+}
+.contact img {
+	top: 4px;
+	margin: 0px 15px 0px 15px;
+}
+.ned {
+	font-family: PTSansBold;
+	font-weight: 700;
+	font-size: 18px;
+}
+/* header - Кнопка */
+.call {
+	float: right;
+	margin-right: 13px;
+	width: 195px;
+	background-color: #ffd111;
+	border-radius: 5px;
+	box-shadow: 0 2px #d6ab00;
+}
+.call a {
+	display: block;
+	text-decoration: none;
+	width: inherit;
+	text-align: center;
+	padding: 11px 0 11px 0;
+	margin: auto;
+	font-family: RalewayBold;
+	font-size: 18px;
+	font-weight: 500;
+	color: black;
+}
+
+/* header - clearfix */
+.clearfix {
+	height: 0;
+	clear: both;
+}
+
+/* header - Меню */
+.home-menu {
+	background-color: black;
+}
+.cont-menu {
+	margin: auto;
+	width: 1230px;
+}
+.cont-menu ul {
+	text-align: center;
+	font-size: 0;
+	
+}
+.cont-menu li {
+	display: inline-block;
+	margin: 18px 0;
+}
+.cont-menu a {
+	padding: 18px 42px 18px 42px;
+	font-family: RalewayRegular;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+}
+.cont-menu a:hover {
+	background-color: #2b88d5;
+}
+
+/* main - Фон */
+.main {
+	outline: 2px dashed gray;
+	width: 1230px;
+	height: 800px;
+	margin: auto;
+}
+.main-img {
+	background-image: url(img/2.png);
+}
+
+	
 
 	
