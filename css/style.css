@@ -100,13 +100,12 @@
 
 /* main - Фон */
 .main {
-	outline: 2px dashed gray;
-	width: 1230px;
-	height: 800px;
 	margin: auto;
 }
 .main-img {
-	background-image: url(img/2.png);
+	background-image: url(../img/main_pic.png);
+	background-position:  50% 50%;
+	height: 660px;
 }
 
 	
