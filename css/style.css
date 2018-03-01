@@ -1,3 +1,4 @@
+
 .container {
 	margin: 0 auto;
 }
@@ -85,7 +86,7 @@
 	margin: 18px 0;
 }
 .cont-menu a {
-	padding: 18px 42px 18px 42px;
+	padding: 17px 42px 17px 42px;
 	font-family: RalewayRegular;
     font-size: 14px;
     font-weight: 500;
@@ -100,13 +101,57 @@
 
 /* main - Фон */
 .main {
-	margin: auto;
 }
 .main-img {
 	background-image: url(../img/main_pic.png);
 	background-position:  50% 50%;
 	height: 660px;
 }
+.cont-head {
+	width: 1230px;
+	margin: auto;
+}
+.head {
+	position: relative;
+	top: 65px;
+	left: 65px;
+}
+.head p {
+	margin: 0;
+	white-space: pre-line;
+}
+.head #one {
+	font-family: RalewayExtraBold;
+	font-size: 48px;
+}
+.head #two {
+	font-family: RalewayRegular;
+	font-size: 25px;
+	font-weight: 500;
+	line-height: 28px;
+}
+.click-view {
+	position: relative;
+	top: 135px;
+	left: 65px;
+	background-color: #ffd111;
+	border: 1px solid #ffd111;
+	width: 240px;
+	box-shadow: 0 2px #d6ab00;
+	border-radius: 5px;
+}
+.click-view a {
+	display: block;
+	width: inherit;
+	text-decoration: none;
+	margin: auto;
+	text-align: center;
+	color: black;
+	font-family: RalewayBold;
+	font-size: 18px;
+	padding: 11px 0 11px 0;
+}
+	
 
 	
 
