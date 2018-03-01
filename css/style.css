@@ -1,8 +1,18 @@
-
 .container {
 	margin: 0 auto;
 }
-
+.button {
+	display: block;
+	text-decoration: none;
+	width: inherit;
+	text-align: center;
+	color: black;
+	background-color: #ffd111;
+	border-radius: 5px;
+	box-shadow: 0 2px #d6ab00;
+	font-family: RalewayBold;
+	font-size: 18px;
+}
 /* header */
 .header {
 }
@@ -45,21 +55,10 @@
 	float: right;
 	margin-right: 13px;
 	width: 195px;
-	background-color: #ffd111;
-	border-radius: 5px;
-	box-shadow: 0 2px #d6ab00;
+	
 }
 .call a {
-	display: block;
-	text-decoration: none;
-	width: inherit;
-	text-align: center;
 	padding: 11px 0 11px 0;
-	margin: auto;
-	font-family: RalewayBold;
-	font-size: 18px;
-	font-weight: 500;
-	color: black;
 }
 
 /* header - clearfix */
@@ -131,24 +130,11 @@
 	line-height: 28px;
 }
 .click-view {
-	position: relative;
-	top: 135px;
-	left: 65px;
-	background-color: #ffd111;
-	border: 1px solid #ffd111;
+	margin-top: 135px;
+	margin-left: 65px;
 	width: 240px;
-	box-shadow: 0 2px #d6ab00;
-	border-radius: 5px;
 }
 .click-view a {
-	display: block;
-	width: inherit;
-	text-decoration: none;
-	margin: auto;
-	text-align: center;
-	color: black;
-	font-family: RalewayBold;
-	font-size: 18px;
 	padding: 11px 0 11px 0;
 }
 	
