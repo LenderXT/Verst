@@ -137,6 +137,43 @@
 .click-view a {
 	padding: 11px 0 11px 0;
 }
+
+/* main - Новостройки */
+.main-head {
+	background-color: #f7f7f7;
+}
+.cont-head2 {
+	width: 1230px;
+	margin: auto;
+}
+.cont-head2 p {
+	position: relative;
+	padding: 67px 65px;
+	margin: inherit;
+	font-family: RalewayRegular;
+	font-size: 36px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.block {
+	border: 1px solid lightgray;
+	width: 1170px;
+	margin-left: 65px;
+}
+.cont-block {
+	width: 585px;
+	height: 340px;
+}
+.cont-block .1 {
+	float: left;
+	background-image: url(../img/novaya-zhizn.png);
+	border-right: 1px solid lightgray;
+}
+.cont-block .2 {
+	float: right;
+	border-left: 1px solid lightgray;
+}
+
 	
 
 	
