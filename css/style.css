@@ -155,26 +155,65 @@
 	font-weight: 500;
 	text-transform: uppercase;
 }
-#block {
-	border: 1px solid lightgray;
-	width: 1170px;
-	height: 340px;
-	margin-left: 65px;
-}
 .cont-block1 {
 	float: left;
-	background-image: url(../img/novaya-zhizn.png);
-	width: 585px;
-	height: inherit;
+	width: 583px;
+	height: 340px;
 }
 .cont-block2 {
 	border-left: 2px solid lightgray;
 	float: right;
-	width: 585px;
+	width: 583px;
+	height: 340px;
+	background-color: white;
 }
-.cont-block2 p {
+.cont-block2 .text-one {
+	font-family: RalewayBold;
+	font-size: 30px;
+	font-weight: 700;
+	position: relative;
+	top: 20px;
+	left: 52px;
 }
-	
+.cont-block2 .text-two {
+	font-family: PTSansRegular;
+	font-size: 18px;
+	color: #999999;
+	white-space: pre-line;
+	line-height: 30px;
+	position: relative;
+	left: 52px;
+	bottom: 10px;
+}
+.cont-block #block {
+	border: 1px solid lightgray;
+	height: 340px;
+	margin-top: 30px;
+}
+
+/* Первый блок */
+.cont-head2 .cont-block {
+	width: 1170px;
+	margin-left: 65px;
+}
+.one .cont-block1 {
+	background-image: url(../img/novaya-zhizn.png);
+}
+/* Второй блок */
+.two .cont-block1 {
+	background-image: url(../img/avrora.png);
+}
+/* Третий блок */
+.three .cont-block1 {
+	background-image: url(../img/parusa.png);
+}
+/* Четвертый блок */
+.four .cont-block1 {
+	background-image: url(../img/cheremushki.png);
+}
+.four #text-one {
+	white-space: pre-line;
+}
 
 
 	
