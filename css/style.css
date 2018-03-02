@@ -199,14 +199,17 @@
 .one .cont-block1 {
 	background-image: url(../img/novaya-zhizn.png);
 }
+
 /* Второй блок */
 .two .cont-block1 {
 	background-image: url(../img/avrora.png);
 }
+
 /* Третий блок */
 .three .cont-block1 {
 	background-image: url(../img/parusa.png);
 }
+
 /* Четвертый блок */
 .four .cont-block1 {
 	background-image: url(../img/cheremushki.png);
@@ -214,6 +217,54 @@
 .four #text-one {
 	white-space: pre-line;
 }
+
+/* main - Условия */
+.cont-circs {
+	width: 1170px;
+	height: 219px;
+	margin-left: 65px;
+}
+#circs {
+	border: 1px solid lightgray;
+	float: left;
+	height: 219px;
+	background-color: white;
+	padding: 20px 0 0 25px;
+}
+.circs1 {
+	width: 245px;
+}
+.circs2 {
+	margin-left: 30px;
+	width: 245px;
+}
+.circs3 {
+	margin-left: 30px;
+	width: 539px;
+}
+.text-circs {
+	font-family: PTSansBold;
+	font-size: 24px;
+	font-weight: 700;
+	margin: 0;
+}
+#circs ul {
+	padding-left: 23px;
+	margin-top: 29px;
+}
+#list {
+	list-style-image: url(../img/success.png);
+	list-style-position: outside;
+	margin-top: 5px;
+	font-family: PTSansRegular;
+	font-size: 18px;
+	color: #999999;
+}
+#h-circs {
+	padding: 80px 65px 50px;
+}
+
+
 
 
 	
