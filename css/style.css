@@ -263,6 +263,16 @@
 #h-circs {
 	padding: 80px 65px 50px;
 }
+.circs-text {
+	font-family: PTSansBold;
+	font-size: 16px;
+	font-weight: 500;
+	color: #2b88d5;
+}
+.img-mrgn {
+	position: relative;
+	top: 1px;
+}
 
 
 
