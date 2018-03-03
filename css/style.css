@@ -171,6 +171,7 @@
 	font-family: RalewayBold;
 	font-size: 30px;
 	font-weight: 700;
+	color: black;
 	position: relative;
 	top: 20px;
 	left: 52px;
@@ -227,7 +228,7 @@
 #circs {
 	border: 1px solid lightgray;
 	float: left;
-	height: 219px;
+	height: 197px;
 	background-color: white;
 	padding: 20px 0 0 25px;
 }
@@ -267,13 +268,73 @@
 	font-family: PTSansBold;
 	font-size: 16px;
 	font-weight: 500;
+	
+}
+.circs-text a {
 	color: #2b88d5;
+	text-decoration: none;
 }
 .img-mrgn {
 	position: relative;
 	top: 1px;
 }
 
+/* Отзывы */
+.review {
+	width: 1230px;
+	margin-left: 36px;
+	margin-top: 68px;
+}
+.cont-review {
+	border-top: 1px solid lightgray;
+	width: 1170px;
+	height: 650px;
+	margin: auto;
+}
+.cont-review > p {
+	font-family: RalewayRegular;
+	font-size: 36px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-top: 98px;
+}
+.block-review {
+	outline: 2px dashed lightgray;
+	margin-top: 62px;
+}
+#review {
+	outline: 1px dashed lightgray;
+	float: left;
+	width: 321px;
+	height: 468px;
+}
+.block-review .one {
+}
+.block-review .two {
+	margin-left: 79px;
+}
+.block-review .three {
+	margin-left: 79px;
+}
+.block-review img {
+	margin: 5px 5px;
+}
+.p-rev p {
+	display: block;
+	font-family: RalewayBold;
+	font-size: 18px;
+}
+.img-rev {
+	float: left;
+	width: 130px;
+}
+.p-rev {
+	float: left;
+	width: 143px;
+	height: 0;
+	position: relative;
+	top: 98px;
+}
 
 
 
