@@ -62,9 +62,10 @@
 }
 
 /* header - clearfix */
-.clearfix {
-	height: 0;
-	clear: both;
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
 }
 
 /* header - Меню */
@@ -286,7 +287,6 @@
 	margin-top: 68px;
 }
 .cont-review {
-	border-top: 1px solid lightgray;
 	width: 1170px;
 	height: 650px;
 	margin: auto;
@@ -299,11 +299,9 @@
 	margin-top: 98px;
 }
 .block-review {
-	outline: 2px dashed lightgray;
 	margin-top: 62px;
 }
 #review {
-	outline: 1px dashed lightgray;
 	float: left;
 	width: 325px;
 	height: 468px;
@@ -342,6 +340,61 @@
 	white-space: pre-wrap;
 }
 
+/* main - Подробности */
+.main-family {
+	border: 8px solid #ffd111;
+	width: 1170px;
+	height: 530px;
+	margin: 121px auto;
+	position: relative;
+	left: 35px;
+}
+.family {
+	
+	width: 585px;
+	height: 530px;
+}
+.family.one {
+	float: left;
+	background-image: url(../img/family.png);
+	background-position: 75% 50%;
+}
+.family.two {
+	float: right;
+	
+}
+.family-pics {
+	margin-left: 12px;
+}
+.pics {
+	float: left;
+	text-align: center;
+}
+.pics.two {
+	margin-left: 36px;
+}
+.pics.three {
+	margin-left: 36px;
+}
+.pics p {
+	font-family: RalewayBold;
+	font-size: 14px;
+	white-space: pre-line;
+}
+.p1 {
+	font-family: RalewayRegular;
+	font-size: 36px;
+	text-transform: uppercase;
+	padding-top: 10px;
+}
+.p2 {
+	font-family: RalewayBold;
+	font-size: 48px;
+	color: #ff2400;
+	text-transform: uppercase;
+	position: relative;
+	left: 90px;
+}
 
 
 	
