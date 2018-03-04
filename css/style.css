@@ -395,7 +395,89 @@
 	position: relative;
 	left: 90px;
 }
+.rev-click {
+	width: 173px;
+	position: relative;
+	top: 10px;
+	left: 140px;
+}
+.rev-click a {
+	padding: 11px 11px;
+}
 
+/* main - О нас */
+.about {
+	width: 1230px;
+	margin: auto;
+}
+.cont-about {
+	position: relative;
+	left: 60px;
+	height: 740px;
+}
+.ab-p1 {
+	font-family: RalewayRegular;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+.ab-p2 {
+	display: block;
+	font-family: PTSansRegular;
+	font-size: 16px;
+	line-height: 30px;
+	width: 1169px;
+	white-space: pre-line;
+}
+
+/* footer */
+.footer {
+	background-color: #2c2c29;
+	
+}
+.cont-footer {
+	width: 1230px;
+	height: 180px;
+	margin: auto;
+}
+.foot-img {
+	position: relative;
+	top: 21px;
+	left: 60px;
+}
+.foot-menu {
+	position: relative;
+	bottom: 70px;
+	left: 320px;
+}
+.foot-menu ul {
+}
+.foot-menu li {
+	display: inline-block;
+	text-align: center;
+	margin-left: 50px;
+}
+.foot-menu a {
+	font-family: RalewayRegular;
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.foot-menu a:hover {
+	color: #2b88d5;
+}
+.foot-menu span {
+	text-decoration: underline;
+}
+.foot-menu p {
+	font-family: PTSansRegular;
+	font-size: 12px;
+	color: white;
+	white-space: pre-line;
+	position: relative;
+	left: 90px;
+}
+	
 
 	
 
